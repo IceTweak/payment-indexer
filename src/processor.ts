@@ -1,9 +1,9 @@
-import {BatchHandlerContext, BatchProcessorItem, EvmBatchProcessor, EvmBlock} from '@subsquid/evm-processor'
-import {LogItem} from '@subsquid/evm-processor/lib/interfaces/dataSelection'
-import {Store, TypeormDatabase} from '@subsquid/typeorm-store'
+import { BatchHandlerContext, BatchProcessorItem, EvmBatchProcessor, EvmBlock } from '@subsquid/evm-processor'
+import { LogItem } from '@subsquid/evm-processor/lib/interfaces/dataSelection'
+import { Store, TypeormDatabase } from '@subsquid/typeorm-store'
 import { lookupArchive } from '@subsquid/archive-registry'
-import {In} from 'typeorm'
-import {Account, Transfer} from './model'
+import { In } from 'typeorm'
+import { Account, Transfer } from './model'
 
 import * as erc20 from './abi/erc20'
 
